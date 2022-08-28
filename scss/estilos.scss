@@ -1,0 +1,28 @@
+
+@use 'custom';
+
+//Importando los componentes
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Importando las secciones
+
+@use 'sections/navbar';
+@use 'sections/about-us';
+@use 'sections/accommodations';
+@use 'sections/experience';
+@use 'sections/faq';
+@use 'sections/banner';
+
+
+
+
+           
+@import "../libs/bootstrap/scss/bootstrap";
+
+
+
+

@@ -1,0 +1,7 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.menu {
+    border-bottom: 1px solid $dark-gray;
+}

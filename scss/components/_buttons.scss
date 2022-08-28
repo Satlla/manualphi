@@ -1,0 +1,26 @@
+
+@use '../custom' as *;
+
+
+
+.btn-rounded {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid $dark-gray;
+    color: $dark-purple
+    
+}
+
+.btn-mn-primary{
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #534E8C;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px 0;
+
+
+}

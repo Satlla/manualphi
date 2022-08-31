@@ -1,6 +1,9 @@
 @use '../custom' as *;
 
 .banner-img{
-    width: 330px;
+   width: 800px;
+    margin-top: 10rem;
+    min-width: 330px;
+    overflow: hidden;
     
 }

@@ -1,9 +1,14 @@
 
 @use '../custom' as *;
+@use './mixins' as *;
+
+
 
     .title-1{
         font-weight: 700;
         color: $dark-purple;
         margin-top: 0.5rem;
+        font-size: 52px;
+          
        
     }

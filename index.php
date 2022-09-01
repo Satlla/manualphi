@@ -10,11 +10,11 @@
                 <div class="row banner-text align-items-center  ">
 
                     <div class="  group-text ">
-                            <h1 class="title-1">Automatiza la estancia de tus huéspedes</h1>
+                            <h1 class="title-1 ">Automatiza la estancia de tus huéspedes</h1>
                             <p> La única herramienta que te permite ahorrar tiempo y dinero, automatizando la estnacia de tus huéspedes desde la reserva, ¡Hasta el checkout! </p>
                             
                             <div class="d-flex justify-content-start ">
-                                    <button class="btn-mn-primary"> Regístrate!</button>
+                                    <button class="btn-mn-primary "> Regístrate!</button>
                                     <button class="btn-rounded ms-4"> Reservar una demo</button>
                             </div>
                     </div>
@@ -39,6 +39,29 @@
                     
             </div>
         </div>
+
+        <div class=" container-purple mt-4">
+                <div class="row d-flex justify-content-around">
+            
+                    <div class="col-3  ">
+                        <h1 class="">23M</h1>
+                        <p class="lead">Scans.</p>
+                    </div>
+                    <div class="col-3 ">
+                        <h1 class="">4M</h1>
+                        <p class="lead">Hosts.</p>
+                    </div>
+                    <div class="col-3 d-none d-sm-block ">
+                        <h1 class="">98%</h1>
+                        <p class="lead">Satisfaction.</p>
+                    </div>
+                    <div class="col-3 d-none d-sm-none d-md-block ">
+                        <h1 class="">12k</h1>
+                        <p class="lead">reviews</p>
+                    </div>
+                    
+                </div>
+</div>
 
 
 

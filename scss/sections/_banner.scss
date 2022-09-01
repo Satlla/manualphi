@@ -1,9 +1,21 @@
 @use '../custom' as *;
+@use '../components/mixins' as *;
+
+
 
 .banner-img{
-   width: 800px;
+    width: 800px;
     margin-top: 10rem;
     min-width: 330px;
     overflow: hidden;
     
 }
+
+.container-purple{
+    @include pink-gradient;
+    padding: 1rem;
+    min-width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+

@@ -25,4 +25,8 @@ body {
   display: inline-block;
   margin: 5px 0;
 }
+
+span .menu-item {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=_buttons.css.map */

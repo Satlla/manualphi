@@ -27,11 +27,35 @@ body {
   margin: 5px 0;
 }
 
+span .menu-item {
+  margin-left: 10px;
+}
+
+/* Titulo de encabezados de pagina, titulos principales */
 .title-1 {
   font-weight: 700;
   color: #1C1449;
   margin-top: 0.5rem;
   font-size: 52px;
+}
+
+.title-1-light {
+  font-weight: 700;
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 52px;
+}
+
+.title-2 {
+  font-weight: 400;
+  color: #1C1449;
+  font-size: 40px;
+  padding: 1.5rem 3rem;
+}
+
+.menu-item {
+  color: red !important;
+  text-decoration: none;
 }
 
 .menu {

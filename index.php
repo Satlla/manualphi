@@ -53,7 +53,7 @@
                     </div>
                     <div class="col-3 d-none d-sm-block ">
                         <h1 class="">98%</h1>
-                        <p class="lead">Satisfaction.</p>
+                        <p class="lead">Sastisfaction.</p>
                     </div>
                     <div class="col-3 d-none d-sm-none d-md-block ">
                         <h1 class="">12k</h1>
@@ -107,7 +107,7 @@
                 6
             </div>
             <div class="col-6">
-                6
+                <h2 class="title-1">login</h2>
             </div>
         </div>
     </div>
@@ -116,6 +116,6 @@
   
 </main>
 
-<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

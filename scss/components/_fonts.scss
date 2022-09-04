@@ -3,6 +3,7 @@
 @use './mixins' as *;
 
 
+/* Titulo de encabezados de pagina, titulos principales */
 
     .title-1{
         font-weight: 700;
@@ -10,5 +11,28 @@
         margin-top: 0.5rem;
         font-size: 52px;
           
-       
+    }
+
+    .title-1-light{
+        font-weight: 700;
+        color: white;
+        margin-top: 0.5rem;
+        font-size: 52px;
+          
+    }
+
+   
+
+    .title-2 {
+        font-weight : 400;
+        color: $dark-purple;
+        font-size: 40px;
+        padding: 1.5rem 3rem;
+
+    }
+
+
+    .menu-item {
+        color: red !important;
+        text-decoration: none;
     }

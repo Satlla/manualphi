@@ -10,26 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https:/å/fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
 
 
 
-<style>
-        @media (min-width: 992px) {
 
-            .alto-100{
-                height: 100vh;
-            }
-            
-        }
-    </style>
 </head>
 <body>
 
 <nav class="menu navbar navbar-light">
   <div class="container d-flex">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logomanualphi.svg" alt="logo">
     </a>
 
@@ -54,9 +46,11 @@
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <div>
-      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-    </div>
+  
+    <span class="nav-item">
+      <a class="" href="login.php"> Iniciar Sesión</a>
+    </span>
+   
     <div class="dropdown mt-3">
       <button class="btn-mn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
         Language
@@ -73,3 +67,6 @@
     
   </div>
 </nav>
+
+
+<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>

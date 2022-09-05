@@ -19,8 +19,6 @@
                             </div>
                     </div>
                 </div>
-
-             
             <div class="container group-banner  ">
                 
             <div class="row ">
@@ -34,8 +32,6 @@
                         
                     </div>
             </div>
-       
-       
                     
             </div>
         </div>
@@ -69,50 +65,74 @@
     </div>
 
     <div class="container mt-4">
-        <div class="row">
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
-            <div class="col-1 border">1</div>
+        <h2 class=" text-center fs-2 title-2"> Para todo tipo de alojamientos</h2>
+        <p class="text-center fw-normal fs-4 lh-1"> Descubre como nos adaptamos a tí</p>
+
+    </div>
+    <div class="acommodations d-flex justify-content-center align-items-center w-100">
+        <div class="row d-block d-md-flex">
+            <div class="card col-4 m-3" style="width: 18rem;">
+                <img src="images/viñeta 1 .svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn-rounded">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-4 m-3" style="width: 18rem;">
+                <img src="images/viñeta2.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn-rounded">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-4 m-3" style="width: 18rem;">
+                <img src="images/viñeta3.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class=" btn-rounded ">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-4 m-3" style="width: 18rem;">
+                <img src="images/viñeta3.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn-rounded">Go somewhere</a>
+                </div>
+            </div>
+
+
 
         </div>
-        <div class="row">
-            <div class="col-4 border">1</div>
-            <div class="col-4 border">1</div>
-            <div class="col-4 border">1</div>
 
+        
 
-        </div>
-        <div class="row">
-            <div class="col-3 border">1</div>
-            <div class="col-3 border">1</div>
-            <div class="col-3 border">1</div>
-            <div class="col-3 border">1</div>
-           
-
-        </div>
     </div>
 
-    <div class="container">
+
+    <div class="row d-flex justify-content-center align-items-center">
         <div class="row">
-            <div class="col-6">
-                6
+
+            <div class="col-3">
+              One of two columns
             </div>
-            <div class="col-6">
-                <h2 class="title-1">login</h2>
+            <div class="col-3">
+              One of two columns
+            </div>
+            <div class="col-3">
+              One of two columns
+            </div>
+            <div class="col-3">
+              One of two columns
             </div>
         </div>
-    </div>
-
-
+  </div>
   
 </main>
 

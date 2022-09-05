@@ -47,10 +47,15 @@
   </div>
   <div class="offcanvas-body">
   
-    <span class="nav-item">
+    <div class="nav-item">
       <a class="" href="login.php"> Iniciar Sesión</a>
-    </span>
-   
+    </div>
+    <div class="nav-item">
+      <a class="" href="register.php"> Registrarme</a>
+    </div>
+    <div class="nav-item">Cerrar Sesión</a>
+    </div>
+
     <div class="dropdown mt-3">
       <button class="btn-mn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
         Language

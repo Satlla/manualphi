@@ -1,10 +1,10 @@
-<?php include ('./includes/header-transparent.php') ?>
+
 
 
 <section class="">
 
-<div class="row g-0 d-flex ">
-    <div class="col-lg-7">
+<div class="row g-0 d-flex flex-column-reverse flex-lg-row">
+    <div class="col-lg-7 carou-caption">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -15,7 +15,7 @@
     <div class="carousel-item active" data-bs-interval="20000">
       <img src="images/image-banner.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="title-1">Nueva Funcionalidad</h5>
+        <h5 class="font-weight-bold">Nueva Funcionalidad</h5>
         <p>Registra a tus viajeros en policia con Manuaphi</p>
       </div>
     </div>
@@ -44,12 +44,11 @@
   </button>
 </div>
 
-   
 
     </div>
     <div class="col-lg-5">
         <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4">
-            <img src="./images/logomanualphi.svg" alt="logo">
+        <?php include ('./includes/header-transparent.php') ?>
 
         </div>
 

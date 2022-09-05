@@ -8,6 +8,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.carou-caption {
+  max-width: 600px;
+}
+
 .btn-rounded {
   border-radius: 30px;
   padding: 8px 17px;
@@ -78,6 +82,10 @@ span .menu-item {
   padding: 1rem;
   min-width: 100%;
   font-family: "IBM Plex Mono", monospace;
+}
+
+.carou-caption {
+  max-width: 600px;
 }
 
 /*!

@@ -19,12 +19,15 @@
 </head>
 <body>
 
-<ul class="nav navbar-transparent p-4">
+<ul class="nav navbar-transparent">
   <li class="nav-item">
-    <a class="nav-link active" href="index.php">Volver</a>
+  <a class="navbar-brand" href="index.php">
+      <img src="images/logomanualphi.svg" alt="logo">
+    </a>
   </li>
   
 </ul>
+
 
 
 

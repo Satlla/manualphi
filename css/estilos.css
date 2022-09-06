@@ -61,9 +61,17 @@ a {
   padding: 1.5rem 3rem;
 }
 
-.menu-item {
-  color: red !important;
-  text-decoration: none;
+.header-purple-gradient {
+  background-color: #58488a;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#58488a), to(#5d64d0));
+  background-image: linear-gradient(to bottom right, #58488a, #5d64d0);
+  overflow: hidden;
+  color: #fff;
+  font-weight: 700;
+  padding: 3rem;
+  line-height: 1;
+  font-family: "IBM Plex Mono", monospace;
+  margin: 2rem 0 2rem 0;
 }
 
 .menu {
@@ -77,13 +85,13 @@ a {
   overflow: hidden;
 }
 
-.container-purple {
-  background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+.text-purple {
+  background-image: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
-  padding: 1rem;
+  padding: 2rem;
   min-width: 100%;
   font-family: "IBM Plex Mono", monospace;
 }

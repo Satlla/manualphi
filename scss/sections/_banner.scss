@@ -11,11 +11,13 @@
     
 }
 
-.container-purple{
+.text-purple{
     @include pink-gradient;
-    padding: 1rem;
+    padding: 2rem;
     min-width: 100%;
     font-family: 'IBM Plex Mono', monospace;
 
 }
+
+
 

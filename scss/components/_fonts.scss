@@ -22,7 +22,6 @@
     }
 
    
-
     .title-2 {
         font-weight : 400;
         color: $dark-purple;
@@ -31,8 +30,14 @@
 
     }
 
+    .header-purple-gradient{
+        @include heroku;
+        font-weight: 700;
+        padding: 3rem;
+        line-height: 1;
+        font-family: 'IBM Plex Mono', monospace;
+        margin: 2rem 0 2rem 0;
+        
 
-    .menu-item {
-        color: red !important;
-        text-decoration: none;
     }
+

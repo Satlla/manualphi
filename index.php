@@ -71,7 +71,7 @@
     </div>
     <div class="acommodations d-flex justify-content-center align-items-center w-100">
         <div class="row d-block d-md-flex">
-            <div class="card col-4 m-3 p-4 " style="width: 18rem;">
+            <div class="card col-3 m-3 p-4 " style="width: 18rem;">
                 <img src="images/viñeta 1 .svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Hoteles</h5>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="card col-4 m-3 p-4" style="width: 18rem;">
+            <div class="card col-3 m-3 p-4" style="width: 18rem;">
                 <img src="images/viñeta2.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Apartamentos</h5>
@@ -89,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="card col-4 m-3 p-4" style="width: 18rem;">
+            <div class="card col-3 m-3 p-4" style="width: 18rem;">
                 <img src="images/viñeta3.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Habitaciones</h5>
@@ -98,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="card col-4 m-3 p-4" style="width: 18rem;">
+            <div class="card col-3 m-3 p-4" style="width: 18rem;">
                 <img src="images/viñeta3.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Campings</h5>
@@ -132,15 +132,53 @@
     </div>
 
 
-    <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-4">
-        <div class="row">
+    <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-5">
+        <div class="row row-cols-2 justify-content-center align-items-center">
 
-            <div class="col-6 text-center">
-              <img src="images/image-header.png" alt="" width="300">
+            <div class="col-12 col-sm-6 col-lg-4 text-center ">
+              <img src="images/image-header.png" alt="" width="400">
             </div>
-            <div class="col-6 text-center">
+            <div class="col-12 col-sm-6 col-lg-4 text-center  ">
               <h3 class=""> Video-Manual de tu alojamiento  </h3>
               <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+              <span> <button class="btn-rounded"> Ver video </button></span>
+
+            </div>
+            
+        </div>
+  </div>
+
+
+  <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-5">
+        <div class="row row-cols-2 justify-content-center align-items-center">
+
+            <div class="col-12 col-sm-6 col-lg-4 text-center  ">
+              <h3 class=""> Video-Manual de tu alojamiento  </h3>
+              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+              <span> <button class="btn-rounded"> Ver video </button></span>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 text-center ">
+              <img src="images/image-header.png" alt="" width="400">
+            </div>
+            
+            
+        </div>
+  </div>
+
+
+  <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-5">
+        <div class="row row-cols-2 justify-content-center align-items-center">
+
+            <div class="col-12 col-sm-6 col-lg-4 text-center ">
+              <img src="images/image-header.png" alt="" width="400">
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 text-center  ">
+              <h3 class=""> Video-Manual de tu alojamiento  </h3>
+              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+              <span> <button class="btn-rounded"> Ver video </button></span>
 
             </div>
             
@@ -151,4 +189,6 @@
 
 
 </body>
+<?php include ('./includes/footer.php') ?>
+
 </html>

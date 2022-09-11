@@ -9,7 +9,7 @@
             
                 <div class="row banner-text align-items-center  ">
 
-                    <div class=" group-text ">
+                    <div class="group-text ">
                             <h1 class="title-1 ">Automatiza la estancia de tus huéspedes</h1>
                             <p> La única herramienta que te permite ahorrar tiempo y dinero, automatizando la estnacia de tus huéspedes desde la reserva, ¡Hasta el checkout! </p>
                             
@@ -115,7 +115,7 @@
         
         
     </div>
-    <div class=" w-100 d-flex justify-content-center text-center m-4" >
+    <div class=" w-100 d-flex justify-content-center text-center mt-4 mb-4" >
 
         <a href="#" class=" btn-mn-primary ">Prueba Manualphi Ahora </a>
     </div>
@@ -132,14 +132,50 @@
     </div>
 
 
-    <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-5">
-        <div class="row row-cols-2 justify-content-center align-items-center">
+    <div>
+        <div class="row justify-content-center p-4 ">
 
-            <div class="col-12 col-sm-6 col-lg-4 text-center ">
-              <img src="images/image-header.png" alt="" width="400">
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-around text-center ">
+              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/person.jpg" alt="">
             </div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center  ">
-              <h3 class=""> Video-Manual de tu alojamiento  </h3>
+            
+            <div class="col-12 col-sm-4 col-lg-6 text-center my-auto  ">
+              <h3 class="mt-4"> Video-Manual de tu alojamiento  </h3>
+              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+              <span> <button class="btn-rounded"> Ver video </button></span>
+
+            </div>
+            
+        </div>
+  </div>
+
+  <div>
+        <div class="row justify-content-center p-4  ">
+        <div class="col-12 col-sm-4 col-lg-6 text-center my-auto  ">
+              <h3 class="mt-4"> Video-Manual de tu alojamiento  </h3>
+              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+              <span> <button class="btn-rounded"> Ver video </button></span>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-around text-center ">
+              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/person.jpg" alt="">
+            </div>
+            
+           
+            
+        </div>
+  </div>
+
+  <div>
+        <div class="row justify-content-center p-4 ">
+
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-around text-center ">
+              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/person.jpg" alt="">
+            </div>
+            
+            <div class="col-12 col-sm-4 col-lg-6 text-center my-auto  ">
+              <h3 class="mt-4"> Video-Manual de tu alojamiento  </h3>
               <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
               <span> <button class="btn-rounded"> Ver video </button></span>
 
@@ -149,41 +185,10 @@
   </div>
 
 
-  <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-5">
-        <div class="row row-cols-2 justify-content-center align-items-center">
-
-            <div class="col-12 col-sm-6 col-lg-4 text-center  ">
-              <h3 class=""> Video-Manual de tu alojamiento  </h3>
-              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
-              <span> <button class="btn-rounded"> Ver video </button></span>
-
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4 text-center ">
-              <img src="images/image-header.png" alt="" width="400">
-            </div>
-            
-            
-        </div>
-  </div>
+  
 
 
-  <div class="row d-sm-flex d-md-block justify-content-center align-items-center w-100 mt-5">
-        <div class="row row-cols-2 justify-content-center align-items-center">
-
-            <div class="col-12 col-sm-6 col-lg-4 text-center ">
-              <img src="images/image-header.png" alt="" width="400">
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4 text-center  ">
-              <h3 class=""> Video-Manual de tu alojamiento  </h3>
-              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
-              <span> <button class="btn-rounded"> Ver video </button></span>
-
-            </div>
-            
-        </div>
-  </div>
+ 
   
 </main>
 

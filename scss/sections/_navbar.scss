@@ -5,3 +5,32 @@
 .menu {
     border-bottom: 1px solid $dark-gray;
 }
+
+/* Botones nav del dashboard usuario */
+
+.dashboard-nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;      
+}
+
+
+.wrapper {
+    border: 1px solid $ultralight-gray;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+
+}
+
+.wrapper .item{
+    text-align: center;
+    background-color: $ultralight-gray;
+    margin-right: 10px;
+   
+
+}
+

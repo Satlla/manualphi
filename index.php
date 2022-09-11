@@ -58,9 +58,6 @@
                     
                 </div>
 </div>
-
-
-
                 
     </div>
 
@@ -72,7 +69,7 @@
     <div class="acommodations d-flex justify-content-center align-items-center w-100">
         <div class="row d-block d-md-flex">
             <div class="card col-3 m-3 p-4 " style="width: 18rem;">
-                <img src="images/viñeta 1 .svg" class="card-img-top" alt="...">
+                <img src="images/hotel01.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Hoteles</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -81,7 +78,7 @@
             </div>
 
             <div class="card col-3 m-3 p-4" style="width: 18rem;">
-                <img src="images/viñeta2.svg" class="card-img-top" alt="...">
+                <img src="images/apartments.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Apartamentos</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,7 +87,7 @@
             </div>
 
             <div class="card col-3 m-3 p-4" style="width: 18rem;">
-                <img src="images/viñeta3.svg" class="card-img-top" alt="...">
+                <img src="images/villes.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Habitaciones</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -99,7 +96,7 @@
             </div>
 
             <div class="card col-3 m-3 p-4" style="width: 18rem;">
-                <img src="images/viñeta3.svg" class="card-img-top" alt="...">
+                <img src="images/campings.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title">Campings</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -136,12 +133,12 @@
         <div class="row justify-content-center p-4 ">
 
             <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-around text-center ">
-              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/person.jpg" alt="">
+              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/bullet1.svg" alt="">
             </div>
             
-            <div class="col-12 col-sm-4 col-lg-6 text-center my-auto  ">
-              <h3 class="mt-4"> Video-Manual de tu alojamiento  </h3>
-              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+            <div class="col-12 col-sm-4 col-lg-4 text-center my-auto  ">
+            <h3 class="mt-4"> Video Manuales de todo tu alojamiento  </h3>
+              <p class="text-center fw-light fs-4 lh-0"> Te ofrecemos una herramienta que te permite hacer videos de todos los elementos de tu apartamento ( vitrocerámica, lavadora, Check in de tus huéspedes con instrucciones específicadas por tí</p>
               <span> <button class="btn-rounded"> Ver video </button></span>
 
             </div>
@@ -151,15 +148,15 @@
 
   <div>
         <div class="row justify-content-center p-4  ">
-        <div class="col-12 col-sm-4 col-lg-6 text-center my-auto  ">
-              <h3 class="mt-4"> Video-Manual de tu alojamiento  </h3>
-              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+        <div class="col-12 col-sm-4 col-lg-4 text-center my-auto  ">
+              <h3 class="mt-4"> Envía instrucciones concretas</h3>
+              <p class="text-center fw-light fs-4 lh-0"> Evita tener que mandar instrucciones de uso a todos tus huéspedes, crea un manual interactivo de tu propiedad ahora, y ahorra tiempo para siempre.</p>
               <span> <button class="btn-rounded"> Ver video </button></span>
 
             </div>
 
             <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-around text-center ">
-              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/person.jpg" alt="">
+              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/bullet2.svg" alt="">
             </div>
             
            
@@ -171,12 +168,12 @@
         <div class="row justify-content-center p-4 ">
 
             <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-around text-center ">
-              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/person.jpg" alt="">
+              <img class="img-fluid m-2 mx-auto my-auto w-100" src="images/bullet3.svg" alt="">
             </div>
             
-            <div class="col-12 col-sm-4 col-lg-6 text-center my-auto  ">
-              <h3 class="mt-4"> Video-Manual de tu alojamiento  </h3>
-              <p class="text-center fw-light fs-4 lh-0"> Haz un video de cómo funciona el aparato o zona que deseas explicar a tu huésped</p>
+            <div class="col-12 col-sm-4 col-lg-4 text-center my-auto  ">
+              <h3 class="mt-4"> 100% Satisfacción</h3>
+              <p class="text-center fw-light fs-4 lh-0"> Tus huéspedes sabrán en todo momento como funcionan todos los elementos de tu alojamiento, faciliándote así la gestión y ¡mejorando sensiblemente la experiencia de tus huéspedes!</p>
               <span> <button class="btn-rounded"> Ver video </button></span>
 
             </div>

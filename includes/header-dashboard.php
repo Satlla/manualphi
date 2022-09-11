@@ -51,14 +51,21 @@
       <a class="text-decoration-none" href="dashboard.php"> Dashboard</a>
     </div>
     <div class="nav-item">
-      <a class="text-decoration-none" href="dashboard.php"> Precios</a>
-    </div>
-   <div class="nav-item">
-      <a class="text-decoration-none" href="login.php"> Iniciar Sesión</a>
+      <a class="text-decoration-none" href="dashboard.php"> Cuenta</a>
     </div>
     <div class="nav-item">
-      <a class="text-decoration-none" href="register.php"> Registrarme</a>
+      <a class="text-decoration-none" href="dashboard.php"> Facturación</a>
     </div>
+    <div class="nav-item">
+      <a class="text-decoration-none" href="dashboard.php"> Precios</a>
+    </div>
+    <div class="nav-item">
+      <a class="text-decoration-none" href="dashboard.php"> Soporte Técnico</a>
+    </div>
+    <div class="nav-item">
+      <a class="text-decoration-none" href="dashboard.php"> Ayuda</a>
+    </div>
+ 
     <div class="nav-item text-decoration-none">Cerrar Sesión</a>
     </div>
 

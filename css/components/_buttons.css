@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   max-width: 600px;
 }
 
+/*Buttons  */
 .btn-rounded {
   border-radius: 30px;
   padding: 8px 17px;
@@ -23,18 +25,54 @@ body {
   border: none;
   padding: 7px 20px;
   font-size: 16px;
+  font-weight: 400;
   color: #fff;
   background-color: #534E8C;
   border-radius: 3px;
   display: inline-block;
   margin: 5px 0;
+  text-decoration: none;
+}
+.btn-mn-primary:a {
+  text-decoration: none;
+  color:   #fafafa;
+}
+.btn-mn-primary:hover {
+  color:   #fafafa;
+  text-decoration: none;
 }
 
-span .menu-item {
+.btn-mn-gray {
+  border-radius: 30px;
+  padding: 8px 17px;
+  background-color: #f1f1f1;
+  color: #1C1449;
+  margin-left: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  min-height: 20px;
+}
+.btn-mn-gray:a {
+  text-decoration: none !important;
+  color: #252A30 !important;
+}
+.btn-mn-gray:hover {
+  background: #f1f1f1;
+}
+
+.btn-mn-transparent {
+  border-radius: 30px;
+  padding: 8px 17px;
+  font-weight: 400;
+  text-decoration: none;
+  min-height: 20px;
+  color: #1C1449;
+  background-color: transparent;
+  border: 1px solid #1C1449;
   margin-left: 10px;
 }
-
-a {
-  text-decoration: none;
+.btn-mn-transparent:hover {
+  background:   #fafafa;
+  color: #534E8C;
 }
 /*# sourceMappingURL=_buttons.css.map */

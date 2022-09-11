@@ -21,3 +21,15 @@
     overflow: hidden;
     color: #fff;
 }
+
+
+
+/*Buttons  */  
+@mixin button-rounded{
+        border-radius: 30px;
+        padding: 8px 17px;
+        font-weight: 400;
+        text-decoration: none;
+        min-height: 20px; 
+    
+    }

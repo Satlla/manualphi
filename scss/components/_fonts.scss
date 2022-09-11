@@ -21,11 +21,19 @@
           
     }
 
-   
+   /* Para títulos de landing, titulos grandes, espaciosos*/
     .title-2 {
         font-weight : 400;
         color: $dark-purple;
         font-size: 40px;
+        padding: 1.5rem 3rem;
+
+    }
+    /* Para títulos de paneles, titulos normales, espaciosos*/   
+    .title-3 {
+        font-weight : 400;
+        color: $dark-purple;
+        font-size: 20px;
         padding: 1.5rem 3rem;
 
     }
@@ -38,6 +46,5 @@
         font-family: 'IBM Plex Mono', monospace;
         margin: 2rem 0 2rem 0;
         
-
     }
 

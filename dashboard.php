@@ -10,51 +10,131 @@
 
      </div>
 
-     <div class="wrapper mt-4">
-     <div class="card item col-6 col-md-4">
-            <div class="card-header">
-                Hace 2 días
-            </div>
-            <div class="card-body ">
-                <h5 class="card-title">La Casa Azul</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn-mn-primary">Gestionar</a>
-                              
-            </div>
-    </div>
-    <div class="card item col-6 col-md-4">
-            <div class="card-header">
-                Hace 2 días
-            </div>
-            <div class="card-body ">
-                <h5 class="card-title">La Casa Azul</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn-mn-primary">Gestionar</a>
-                              
-            </div>
-    </div>
-    <div class="card item col-6 col-md-4">
-            <div class="card-header">
-                Hace 2 días
-            </div>
-            <div class="card-body ">
-                <h5 class="card-title">La Casa Azul</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn-mn-primary">Gestionar</a>
-                              
-            </div>
-    </div>
-    <div class="card item col-6 col-md-4">
-            <div class="card-header">
-                Hace 2 días
-            </div>
-            <div class="card-body ">
-                <h5 class="card-title">La Casa Azul</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn-mn-primary">Gestionar</a>
-                              
-            </div>
-    </div>
+     <div class="wrapper mt-4 d-flex justify-content-center">
+        <div class="row justify-content-left ">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2 ">
+                <div class="item-card ">
+                    
+                    <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-active"> Activo</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item- d-flex justify-content-between container-lg">
+                                <div>
+                                    <h5> Hans & Barriot suites </h5>
+                                    <p> La casa azul</p>
+                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                </div>
+
+                                <div>
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+                <div class="item-card ">
+                    
+
+                    <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-active"> Activo</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item- d-flex justify-content-between container-lg">
+                                <div>
+                                    <h5 class="text-break"> La Casa Azul </h5>
+                                    <p> La casa azul</p>
+                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                </div>
+
+                                <div>
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2 ">
+                <div class="item-card">
+
+                    <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-active"> Activo</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item- d-flex justify-content-between container-lg">
+                                <div>
+                                    <h5> Hans & Barriot suites </h5>
+                                    <p> La casa azul</p>
+                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                </div>
+
+                                <div>
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4  col-lg-3 p-2 ">
+                <div class="item-card  ">
+                    
+                    <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-active"> Activo</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item- d-flex justify-content-between container-lg">
+                                <div>
+                                    <h5> Hans & Barriot suites </h5>
+                                    <p> La casa azul</p>
+                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                </div>
+
+                                <div>
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+
+           
+      
+           
+
+   
+ 
+
+           </div>
+           
+
+        
+           
+           
     
     
        

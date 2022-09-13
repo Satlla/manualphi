@@ -24,7 +24,8 @@
 
 
 
-/*Buttons  */  
+/*Buttons & Badges  */
+ 
 @mixin button-rounded{
         border-radius: 30px;
         padding: 8px 17px;
@@ -33,3 +34,14 @@
         min-height: 20px; 
     
     }
+
+@mixin badge{
+        padding: 2px 12px;
+        max-width: 100%;
+        border: none;
+        color: #f8fcf9;
+        border-radius: 20px;
+        font-weight: 400;
+        font-size: 0.8rem;
+    
+}

@@ -30,12 +30,13 @@
 }
 
 .item-card-badge-active{
-    padding: 2px 12px;
-    max-width: 100%;
-    border: none;
+    @include badge;
     background-color: $dark-green;
-    color: #f8fcf9;
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 0.8rem;
+    
+}
+
+.item-card-badge-disabled{
+    @include badge;
+    background-color: $dark-red;
+
 }

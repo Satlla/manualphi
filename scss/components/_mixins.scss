@@ -45,3 +45,14 @@
         font-size: 0.8rem;
     
 }
+
+
+
+/* Cards */
+
+@mixin card{
+    margin-bottom: 1rem;
+    border: 1px solid $light-gray;
+    border-radius: 12px;
+    height: 220px;
+}

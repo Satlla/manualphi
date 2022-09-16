@@ -66,7 +66,7 @@
         <p class="text-center fw-normal fs-4 lh-1"> Descubre como nos adaptamos a tí</p>
 
     </div>
-    <div class="acommodations d-flex justify-content-center align-items-center w-100">
+    <div class="acommodations d-flex justify-content-center align-items-center w-100 ">
         <div class="row d-block d-md-flex">
             <div class="card col-3 m-3 p-4 " style="width: 18rem;">
                 <img src="images/hotel01.svg" class="card-img-top" alt="...">

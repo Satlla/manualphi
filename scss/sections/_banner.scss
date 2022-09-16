@@ -11,13 +11,42 @@
     
 }
 
-.text-purple{
-    @include pink-gradient;
-    padding: 2rem;
-    min-width: 100%;
-    font-family: 'IBM Plex Mono', monospace;
-
+.container-dashboard{
+    max-width: 940px ;
 }
 
 
+.wrapper {
+    padding: 20px;
+}
 
+.slider-dashboard{
+
+    padding: 2rem;
+    background-color: $dark-gray;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.slider-dashboard .item{
+    min-width: 300px;
+    text-align: center;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.slider-dashboard .item img {
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.item-text{
+    color: $ultralight-gray;
+    padding: 1rem;
+    background-color: $dark-gray;
+
+}

@@ -25,9 +25,8 @@
     .title-2 {
         font-weight : 400;
         color: $dark-purple;
-        font-size: 40px;
-        padding: 1.5rem 3rem;
-
+        font-size: 26px;
+   
     }
     /* Para títulos de paneles, titulos normales, espaciosos*/   
     .title-3 {
@@ -48,3 +47,14 @@
         
     }
 
+    .text-purple{
+        @include pink-gradient;
+        padding: 2rem;
+        min-width: 100%;
+        font-family: 'IBM Plex Mono', monospace;
+    
+    }
+    
+
+
+  

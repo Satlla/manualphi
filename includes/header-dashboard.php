@@ -14,8 +14,6 @@
     <link href="https:/å/fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
 
 
-
-
 </head>
 <body>
 
@@ -30,6 +28,8 @@
   <span class="d-flex">
     <img src="images/list.svg" alt="">
     <img src="images/user-circle.svg" alt="">
+
+    
 
   </span>
 

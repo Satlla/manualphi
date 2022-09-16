@@ -72,4 +72,22 @@
       }
 
 }
+
+.add-button{
+    @include button-rounded;
+    border-radius: 20px;
+    color: $mid-purple;
+    border: none;
+    background-color: $ultralight-gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
+}
+
+
+.plus-icon{
+    color: $light-purple;
+    width: 20px;
+    margin-left: 4px;
+}

@@ -11,6 +11,11 @@
     
 }
 
+.btn-rounded-bg-white{
+    @include button-rounded;
+    color: $dark-gray;
+    border: none;
+}
 
 .btn-mn-primary{
     border: none;
@@ -33,8 +38,6 @@
         color: $ultralight-gray;
         text-decoration: none;
       }
-
-  
 
 }
 

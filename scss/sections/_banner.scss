@@ -20,8 +20,7 @@
     padding: 20px;
 }
 
-.slider-dashboard{
-
+.slider-dashboard-dark{
     padding: 2rem;
     background-color: $dark-gray;
     display: flex;
@@ -29,7 +28,7 @@
 }
 
 
-.slider-dashboard .item{
+.slider-dashboard-dark .item{
     min-width: 300px;
     text-align: center;
     margin-right: 10px;
@@ -49,4 +48,27 @@
     padding: 1rem;
     background-color: $dark-gray;
 
+}
+
+
+// Slider Dashboard de fondo Light Gray
+
+.slider-dashboard-light{
+    padding: 2rem;
+    background-color:#fff;
+    display: flex;
+    overflow-x: auto;
+    background-color: $ultralight-gray;
+}
+
+
+.dashboard-card-steps{
+    min-width: 300px;
+    text-align: left;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    
+    
 }

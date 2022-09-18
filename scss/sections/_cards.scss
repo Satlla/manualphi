@@ -2,6 +2,7 @@
 @use '../components/mixins' as *;
 
 
+//Tarjetas Dashboard (Propiedades)
 
 .item-card{
     @include card;
@@ -15,7 +16,6 @@
     max-height: 3rem;
     align-items: center;
     font-size: 14px;
-
 }
 
 .item-card-image{
@@ -35,6 +35,9 @@
     background-color: $dark-red;
 }
 
+
+// Tarjetas de Dashboard (Consejos para el anfitrión)
+
 .tip{
     min-width: 110px;
     height: 110px;
@@ -46,6 +49,20 @@
 .img-tip{
     width: 100%;
     max-height: 300px;
+}
+
+
+//Tarjetas tus proximos pasos Dashboard
+
+.card-step{
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid $dark-gray;
+    border-radius: 20px;
+    margin-right: 10px;
+    min-width: 300px;
+    max-width: 330px;
+    min-height: 230px;
 }
 
 

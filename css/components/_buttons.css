@@ -23,7 +23,7 @@ body {
 
 .btn-rounded-bg-white {
   border-radius: 30px;
-  padding: 8px 17px;
+  padding: 10px 20px;
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;
@@ -72,7 +72,7 @@ body {
 
 .btn-mn-transparent {
   border-radius: 30px;
-  padding: 8px 17px;
+  padding: 10px 20px;
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;
@@ -88,7 +88,7 @@ body {
 
 .add-button {
   border-radius: 30px;
-  padding: 8px 17px;
+  padding: 10px 20px;
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;

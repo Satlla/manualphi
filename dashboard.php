@@ -3,13 +3,21 @@
 <div class="container-dashboard mx-auto mt-4 ps-2 ">
     <h1 class="title-2">Hola Barriot</h1>
     <p> Este es tu panel de control, desde aquí podrás agregar propiedades y generar los manuales que tus huéspedes necesitan!</p>
-    <h5> Tus propiedades: 4 </h5>
+    <div class="container-dashboard mx-auto mt-4  ">
+        <div class=" d-flex justify-content-between align-items-center p-2 ">
+            <h6> Tus propiedades: 4 </h6>
+            <button class="add-button"> Añadir Propiedad <img class="plus-icon" src="images/plus.svg" alt=""> </button>
+
+
+        </div>
+
+    </div>
 </div>
 
 
 <!-- Bloque tarjetas del Dashboard -->
 
-     <div class="wrapper mt-4 d-flex justify-content-center ">
+     <div class="wrapper d-flex justify-content-center ">
         
         <div class="row justify-content-left  ">
 
@@ -28,7 +36,7 @@
                                     <h6 class="text-break"> La Casa Azul </h6>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                    <a class="btn-mn-primary" href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div>
@@ -56,7 +64,7 @@
                                     <h6 class="text-break"> La Casa Azul </h6>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                    <a class="btn-mn-primary" href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div>
@@ -85,7 +93,7 @@
                                     <h6 class="text-break"> La Casa Azul </h6>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary" href=""> Gestionar</a>
+                                    <a class="btn-mn-primary" href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div>
@@ -158,7 +166,8 @@
                 
                 
                 <div class=" card-step border">
-                    <div class="item-header my-2"> <h4> Añade tu check in  </h4></div>
+                    <div class="item-header my-2"> <h5> Añade tu check in  </h5></div>
+                    <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Danos mas detalles de como entrar a tu alojamiento, si tienes una caja de seguridad, o si por el contrario los recibirás personalmente</p>
 
                 <!-- Button trigger modal -->
@@ -189,12 +198,15 @@
                     </div>
                 </div>
                 <div class=" card-step border">
-                    <div class="item-header my-2"> <h4> Danos mas detalles sobre tu climatización  </h4></div>
+                    <div class="item-header my-2"> <h5> Añade tu climatización  </h5></div>
+                    <hr class="bg-danger border-2 border-top border-dark">
+
                     <p class=" mt-2"> Explica a tus huéspedes como funciona tu aire acondicionado o calefacción</p>
                     <button class="btn-rounded mt-2"> Añade información</button>
                 </div>
                 <div class=" card-step border">
-                    <div class="item-header my-2"> <h4> Añade tu check out  </h4></div>
+                    <div class="item-header my-2"> <h5> Añade tu check out  </h5></div>
+                    <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Dile a tus huéspedes como deben abandonar el alojamiento, si tienen que dejar las llaves en algún lugar o apagar algo en concreto</p>
                     <button class="btn-rounded mt-2"> Añade información</button>
                 </div>

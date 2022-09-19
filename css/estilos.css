@@ -24,7 +24,7 @@ body {
 
 .btn-rounded-bg-white {
   border-radius: 30px;
-  padding: 8px 17px;
+  padding: 10px 20px;
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;
@@ -73,7 +73,7 @@ body {
 
 .btn-mn-transparent {
   border-radius: 30px;
-  padding: 8px 17px;
+  padding: 10px 20px;
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;
@@ -89,7 +89,7 @@ body {
 
 .add-button {
   border-radius: 30px;
-  padding: 8px 17px;
+  padding: 10px 20px;
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;
@@ -194,7 +194,7 @@ body {
 }
 
 .wrapper {
-  padding: 20px;
+  padding: 15px;
 }
 
 .slider-dashboard-dark {
@@ -204,6 +204,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
+}
+
+.slider-dashboard-dark::-webkit-scrollbar {
+  width: 0;
 }
 
 .slider-dashboard-dark .item {
@@ -235,6 +239,10 @@ body {
   display: flex;
   overflow-x: auto;
   background-color: #fafafa;
+}
+
+.slider-dashboard-light ::-webkit-scrollbar {
+  width: 0;
 }
 
 .dashboard-card-steps {

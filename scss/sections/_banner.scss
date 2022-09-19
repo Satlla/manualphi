@@ -17,7 +17,7 @@
 
 
 .wrapper {
-    padding: 20px;
+    padding: 15px;
 }
 
 .slider-dashboard-dark{
@@ -25,6 +25,10 @@
     background-color: $dark-gray;
     display: flex;
     overflow-x: auto;
+}
+
+.slider-dashboard-dark::-webkit-scrollbar{
+    width:0;
 }
 
 
@@ -59,6 +63,10 @@
     display: flex;
     overflow-x: auto;
     background-color: $ultralight-gray;
+}
+
+.slider-dashboard-light ::-webkit-scrollbar{
+    width: 0;
 }
 
 

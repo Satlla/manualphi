@@ -64,7 +64,7 @@
 
     <div class="dropdown mt-3">
       <button class="btn-mn-primary dropdown-toggle text-decoration-none" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-        Language
+        Idioma
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <li><a class="dropdown-item" href="#">Español</a></li>

@@ -1,0 +1,19 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+.table-td-title{
+    font-weight: 400;
+    padding:1rem;
+}
+
+.header-table{
+    color: $light-gray;
+}
+
+.status-zone {
+    margin-left: 10px;
+    padding: 10px !important;
+}

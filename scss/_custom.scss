@@ -18,13 +18,25 @@ $light-blue: #082C6B;
 
 //Green Scale
 $dark-green: #066515;
-$mid-green:#86cf95;
+$mid-green:#4e985d;
 $light-green:#f8fcf9;
 
 //Red Scale
 $dark-red: #92174D;
 $mid-red:#FF385C;
 $light-red: #de7575;
+
+
+
+//Tables
+
+$table-cell-padding-y: $padding-cell;
+$table-cell-padding-x: $padding-cell;
+$table-cell-padding-y-sm:.5rem;
+$table-cell-padding-x-sm:.5rem;
+
+$padding-cell: 1rem;
+
 
 
 *{
@@ -38,6 +50,7 @@ body{
 .carou-caption { 
     max-width: 600px;
 }
+
 
 
 

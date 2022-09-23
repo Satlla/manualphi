@@ -46,8 +46,6 @@
     
 }
 
-
-
 /* Cards */
 
 @mixin card{
@@ -55,4 +53,5 @@
     border: 1px solid $light-gray;
     border-radius: 12px;
     height: 220px;
+  
 }

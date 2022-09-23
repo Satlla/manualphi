@@ -26,13 +26,13 @@
 
 .item-card-badge-active{
     @include badge;
-    background-color: $dark-green;
+    background-color: $mid-green;
     
 }
 
 .item-card-badge-disabled{
     @include badge;
-    background-color: $dark-red;
+    background-color: $mid-red;
 }
 
 

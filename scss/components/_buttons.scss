@@ -15,7 +15,6 @@
     @include button-rounded;
     color: $dark-gray;
     border: none;
-  
 }
 
 .btn-mn-primary{
@@ -59,7 +58,16 @@
 
     &:hover {
         background: #f1f1f1;
-      }
+    }
+}
+
+.btn-purple{
+    color: $dark-purple;
+    &:hover{
+        background-color: $mid-gray;
+        border-radius: 50%;
+        
+    }
 }
 
 

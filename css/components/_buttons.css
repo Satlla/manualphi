@@ -70,6 +70,14 @@ body {
   background: #f1f1f1;
 }
 
+.btn-purple {
+  color: #1C1449;
+}
+.btn-purple:hover {
+  background-color: #7F8A93;
+  border-radius: 50%;
+}
+
 .btn-mn-transparent {
   border-radius: 30px;
   padding: 10px 20px;
@@ -82,6 +90,22 @@ body {
   margin-left: 10px;
 }
 .btn-mn-transparent:hover {
+  background: #fafafa;
+  color: #534E8C;
+}
+
+.btn-rounded-warning {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 400;
+  text-decoration: none;
+  min-height: 20px;
+  color: #FF385C;
+  background-color: transparent;
+  border: 1px solid #FF385C;
+  margin-left: 10px;
+}
+.btn-rounded-warning:hover {
   background: #fafafa;
   color: #534E8C;
 }
@@ -110,5 +134,12 @@ body {
   color: #7673C0;
   width: 20px;
   margin-left: 4px;
+}
+
+.btn-edit {
+  text-decoration: underline;
+  color: #1C1449;
+  border: none;
+  background-color: transparent;
 }
 /*# sourceMappingURL=_buttons.css.map */

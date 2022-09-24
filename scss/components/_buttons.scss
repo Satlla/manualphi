@@ -71,6 +71,8 @@
 }
 
 
+//BOTONES BACKGROUND TRANSPARENT
+
 .btn-mn-transparent{
     @include button-rounded;
     color: $dark-purple;
@@ -85,6 +87,25 @@
 
 }
 
+//Boton warning background transparent outline red
+
+.btn-rounded-warning{
+    @include button-rounded;
+    color: $mid-red;
+    background-color: transparent;
+    border: 1px solid $mid-red;
+    margin-left: 10px;
+    
+    &:hover {
+        background: $ultralight-gray;
+        color: $mid-purple;
+      }
+    }
+
+
+
+//Botón purple añadir elemento, fondo transparente outline purple
+
 .add-button{
     @include button-rounded;
     border-radius: 20px;
@@ -97,9 +118,19 @@
     
 }
 
+// Icono (Más) Boton purple añadir elemento, fondo transparente outline purple
 
 .plus-icon{
     color: $light-purple;
     width: 20px;
     margin-left: 4px;
+}
+
+
+
+.btn-edit{
+    text-decoration: underline;
+    color: $dark-purple;
+    border: none;
+    background-color: transparent;
 }

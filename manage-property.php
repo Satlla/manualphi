@@ -28,7 +28,6 @@
       <th class="text-left header-table d-none d-md-block " scope="col"> ESTADO </th>
       <th class="text-left header-table " scope="col"> ALERTAS  </th>
       <th class="text-center header-table" scope="col">EDITAR</th>
-      <th class="text-center header-table d-none d-md-block" scope="col">ELIMINAR</th>
 
   
   </thead>
@@ -38,9 +37,7 @@
       <td class="table-td-title">Check in</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/red-dot.svg" alt=""> <span class="status-zone">Desactivado</span></td>      
       <td> <button type="button" class="item-card-badge-disabled position-relative"> Errores <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</button></td>
-      <td class="text-center"> <img src="icons/pencil-alt.svg" alt=""></td>
-      <td class="text-center d-none d-md-block"> <img src="icons/x.svg" alt=""></td>
-
+      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
       
     </tr>
     <tr>
@@ -48,8 +45,7 @@
       <td class="table-td-title">Climatización</td>
       <td class="align-items-center d-none d-md-flex  "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/pencil-alt.svg" alt=""></td>
-      <td class="text-center d-none d-md-block"> <img src="icons/x.svg" alt=""></td>
+      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
 
     </tr>
     <tr>
@@ -57,8 +53,7 @@
       <td class="table-td-title">Wifi</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/pencil-alt.svg" alt=""></td>
-      <td class="text-center d-none d-md-block"> <img src="icons/x.svg" alt=""></td>
+      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
 
     </tr>
     <tr>
@@ -66,8 +61,7 @@
       <td class="table-td-title">Check out</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/pencil-alt.svg" alt=""></td>
-      <td class="text-center d-none d-md-block"> <img src="icons/x.svg" alt=""></td>
+      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
 
     </tr>
     <tr>
@@ -75,16 +69,14 @@
       <td class="table-td-title">Vitrocerámica</td>
       <td class="align-items-center d-none d-md-flex  "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/pencil-alt.svg" alt=""></td>
-      <td class="text-center d-none d-md-block"> <img src="icons/x.svg" alt=""></td>
+      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
     </tr>
     <tr>
     <th scope="row"><img src="icons/hidromassage.svg" width="30px" height="20px" alt=""></th>
       <td class="table-td-title">Jacuzzi</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/pencil-alt.svg" alt=""></td>
-      <td class="text-center d-none d-md-block"> <img src="icons/x.svg" alt=""></td>
+      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
     </tr>
   </tbody>
 </table>
@@ -96,6 +88,7 @@
 <div class="bg-light mx-auto mt-4 ps-2 ">
 
 <div class="container-dashboard mx-auto mt-4 ps-2 py-2">
+    <h1 class="mt-4"> FAQ (Preguntas Frecuentes)</h1>
     <h2> Antes de llegar</h2>
     <p> Preguntas más comunes de los viajeros que los viajeros tienen antes de llegar a nuestro alojamiento</p>
     
@@ -109,26 +102,34 @@
 
                 <!-- Button trigger modal -->
                 <!-- Button trigger modal -->
-                  <button type="button" class="btn-rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Saber Cómo
-                  </button>
+                
+                      <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
+
+          
 
                   <!-- Modal -->
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
+                        
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">¿Cómo llego al alojamiento?</h5>
+                          <h5 class="modal-title w-75" id="exampleModalLabel"> Editar FAQ</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                        Si llegas desde el aeropuerto deberás coger el autobús C-6 hasta la Avda Alfonso X el Sabio.
-                        Después deberás cruzar la calle y coger el autobús 01 hasta la parada Maestro Alonso (Rafelet).
-                        Desde ahí puedes caminar durante un par de minutos hasta el apartamento en Calle Músico Pau Casals 16.
 
+                        <div class="modal-body">
+                        <label for="exampleFormControlInput1" class="form-label">Escribe un título del FAQ</label>       
+                        <input class="input-form w-100 " type="text" placeholder="¿Cómo llego al alojamiento?">
+                        <label for="exampleFormControlInput1" class="form-label mt-2">Escribe un slogan del FAQ</label>
+
+                        <textarea class="input-form w-100" name="" id="" cols="30" rows="2"></textarea>
+
+                        <label for="exampleFormControlInput1" class="form-label mt-2">Escribe una descripción del FAQ</label>
+                        <textarea class="input-form w-100" name="" id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn-mn-primary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn-edit ms-4" data-bs-dismiss="modal">Eliminar</button>
+                        <button type="button" class="btn-mn-primary ml-4" data-bs-dismiss="modal">Guardar</button>
                             
                           </div>
                         </div>
@@ -145,25 +146,28 @@
                     <hr class="bg-danger border-2 border-top border-dark">
 
                     <p class=" mt-2"> Descubre como poder disfrutar de tu viaje mucho antes</p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
+
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> ¿Recogerme del aeropuerto? </h5></div>
                     <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Te contamos como ponerte en contacto con Transfers de la ciudad </p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
+
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> Pueden enviarme un transfer al aeropuerto? </h5></div>
                     <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Te contamos como ponerte en contacto con Transfers de la ciudad </p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit mt-2"> Editar</button>
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> ¿Recogerme del aeropuerto? </h5></div>
                     <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Te contamos como ponerte en contacto con Transfers de la ciudad </p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
+
                 </div>
                
 
@@ -188,8 +192,8 @@
 
                 <!-- Button trigger modal -->
                 <!-- Button trigger modal -->
-                  <button type="button" class="btn-rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Saber Cómo
+                  <button type="button" class="btn-edit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Editar
                   </button>
 
                   <!-- Modal -->
@@ -224,25 +228,25 @@
                     <hr class="bg-danger border-2 border-top border-dark">
 
                     <p class=" mt-2"> Descubre como poder disfrutar de tu viaje mucho antes</p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit mt-2"> Editar</button>
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> ¿Recogerme del aeropuerto? </h5></div>
                     <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Te contamos como ponerte en contacto con Transfers de la ciudad </p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit mt-2"> Editar</button>
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> Pueden enviarme un transfer al aeropuerto? </h5></div>
                     <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Te contamos como ponerte en contacto con Transfers de la ciudad </p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit mt-2"> Editar</button>
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> ¿Recogerme del aeropuerto? </h5></div>
                     <hr class="bg-danger border-2 border-top border-dark">
                     <p class=" mt-2"> Te contamos como ponerte en contacto con Transfers de la ciudad </p>
-                    <button class="btn-rounded mt-2"> Saber Cómo</button>
+                    <button class="btn-edit mt-2"> Editar</button>
                 </div>
                
 

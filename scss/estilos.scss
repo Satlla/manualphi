@@ -1,3 +1,8 @@
+$table-cell-vertical-align: middle;
+$table-cell-padding-y:1rem;
+$table-cell-padding-x:1rem;
+$table-border-color: #f1f1f1;
+
 
 @use 'custom';
 
@@ -20,6 +25,7 @@
 @use 'sections/login-carousel';
 @use 'sections/cards';
 @use 'sections/tables';
+@use 'sections/forms';
 
 
 

@@ -67,7 +67,7 @@
 
     </div>
     <div class="acommodations d-flex justify-content-center align-items-center w-100 ">
-        <div class="row d-block d-md-flex">
+        <div class="row d-flex justify-content-center d-md-flex">
             <div class="card col-3 m-3 p-4 " style="width: 18rem;">
                 <img src="images/hotel01.svg" class="card-img-top" alt="...">
                 <div class="card-body text-center">

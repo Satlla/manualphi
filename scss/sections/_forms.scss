@@ -5,10 +5,18 @@
 
 
 .input-form{
-    border-radius: 5px;
-    border: 1px solid $mid-gray;
-    color: $dark-gray;
+    border-radius: 8px;
+    color: $mid-gray;
     font-size: 16px;
-    font-weight: 300;
-    padding: 0.5rem;
+    line-height: 20px;
+    font-weight: 400 ;
+    appearance: none ;
+    border-width: 1px ;
+    border-style: solid ;
+    border-color: $light-gray ;
+    padding: 11px ;
+    margin-bottom: 8px ;
+    display: block ;
+    width: 100% ;
+    
 }

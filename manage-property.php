@@ -4,17 +4,15 @@
 <div class="container-dashboard mx-auto mt-4 ps-2 ">
     <h1 class="title-2">La Casa Azul</h1>
     <p> Este es tu panel de control, desde aquí podrás agregar propiedades y generar los manuales que tus huéspedes necesitan!</p>
-    <div class="container-dashboard mx-auto mt-4  ">
+
+    <div class="container-dashboard mx-auto  ">
         <div class=" d-flex justify-content-between align-items-center p-2 ">
             <a href="dashboard.php"class="add-button"><img class="plus-icon" src="icons/chevron-left.svg" alt="">  Volver </a>
-            <div class="d-flex align-items-center justify-content-between ">
-              <a class="btn-purple me-4" href="" > <img src="icons/eye.svg" alt=""></a>
-              <a class="add-button"> Añadir Zona <img class="plus-icon" src="images/plus.svg" alt=""> </a>
-            </div>
-
-
+            <div class="d-flex justify-content-end">
+              <a class="btn-share text-decoration-none" href="" > <img class="me-2" src="icons/upload.svg" alt=""> Compartir </a>
+              <a class="btn-share text-decoration-none" href="public-view.php" > <img class="me-2" src="icons/eye.svg" alt=""> Ver</a>
+          </div>
         </div>
-
     </div>
 </div>
 
@@ -33,11 +31,11 @@
   </thead>
   <tbody>
     <tr class="">
-    <th scope="row"><img src="icons/checkin.svg" width="30px" height="20px" alt=""></th>
+    <th scope="row"><img src="icons/key.svg" width="30px" height="20px" alt=""></th>
       <td class="table-td-title">Check in</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/red-dot.svg" alt=""> <span class="status-zone">Desactivado</span></td>      
       <td> <button type="button" class="item-card-badge-disabled position-relative"> Errores <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</button></td>
-      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
+      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
       
     </tr>
     <tr>
@@ -45,7 +43,7 @@
       <td class="table-td-title">Climatización</td>
       <td class="align-items-center d-none d-md-flex  "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
+      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
 
     </tr>
     <tr>
@@ -53,7 +51,7 @@
       <td class="table-td-title">Wifi</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
+      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
 
     </tr>
     <tr>
@@ -61,7 +59,7 @@
       <td class="table-td-title">Check out</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
+      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
 
     </tr>
     <tr>
@@ -69,14 +67,14 @@
       <td class="table-td-title">Vitrocerámica</td>
       <td class="align-items-center d-none d-md-flex  "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
+      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
     </tr>
     <tr>
     <th scope="row"><img src="icons/hidromassage.svg" width="30px" height="20px" alt=""></th>
       <td class="table-td-title">Jacuzzi</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/green-dot.svg" alt=""> <span class="status-zone">Activo</span></td>      
       <td> <button type="button" class="item-card-badge-active position-relative"> Correcto <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></button></td>
-      <td class="text-center"> <img src="icons/cog.svg" alt=""></td>
+      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
     </tr>
   </tbody>
 </table>
@@ -84,13 +82,33 @@
 
 </div>
 
+  <div class="container-dashboard mx-auto  ">
+      <div class=" d-flex justify-content-end align-items-center p-2 ">
+
+            <a href="dashboard.php" class="add-button"> Añadir Zona <img class="plus-icon" src="images/plus.svg" alt=""> </a>
+
+      </div>
+  </div>
+
 <!-- FAQ Manage dashboard -->
 <div class="bg-light mx-auto mt-4 ps-2 ">
 
 <div class="container-dashboard mx-auto mt-4 ps-2 py-2">
-    <h1 class="mt-4"> FAQ (Preguntas Frecuentes)</h1>
-    <h2> Antes de llegar</h2>
-    <p> Preguntas más comunes de los viajeros que los viajeros tienen antes de llegar a nuestro alojamiento</p>
+  <div class="d-flex align-items-center justify-content-left mt-2">
+    <h1 class=""> Consejos</h1>
+    <img class="height:40px ms-2" src="icons/question-mark-circle.svg" alt="">
+  </div>
+
+    <h2> Antes de su llegada </h2>
+    <p> Explica a tus huéspedes todo lo que deberían saber antes de que lleguen a tu alojamiento. Por ejemplo <strong> ¿Cual es la mejor forma de llegar al alojamiento desde el aeropuerto?</strong> </p>
+
+    <div class="container-dashboard mx-auto">
+        <div class=" d-flex justify-content-start align-items-center p-2 ">
+          <a href="dashboard.php" class="add-button"data-bs-toggle="modal" data-bs-target="#exampleModal"> Añadir Consejo <img class="plus-icon" src="images/plus.svg" alt=""> </a>
+   
+    </div>
+
+    </div>
     
     <div class="slider-dashboard-light">
   
@@ -113,22 +131,22 @@
                       <div class="modal-content">
                         
                         <div class="modal-header">
-                          <h5 class="modal-title w-75" id="exampleModalLabel"> Editar FAQ</h5>
+                          <h5 class="modal-title w-75 fw-bold" id="exampleModalLabel">¿Sobre qué es tu consejo?</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
 
                         <div class="modal-body">
-                        <label for="exampleFormControlInput1" class="form-label">Escribe un título del FAQ</label>       
-                        <input class="input-form w-100 " type="text" placeholder="¿Cómo llego al alojamiento?">
-                        <label for="exampleFormControlInput1" class="form-label mt-2">Escribe un slogan del FAQ</label>
+                        <label for="exampleFormControlInput1" class="form-label">Dale un título a tu consejo</label>       
+                        <input class="input-form w-100 " type="text" placeholder="Por ejemplo: ¿Cual es la mejor manera de llegar al alojamiento?">
+                        <label for="exampleFormControlInput1" class="form-label mt-2">Escribe un slogan sobre el consejo</label>
 
-                        <textarea class="input-form w-100" name="" id="" cols="30" rows="2"></textarea>
+                        <textarea class="input-form w-100" placeholder="Por ejemplo: ' Descubre la mejor manera de llegar al alojamiento '" name="" id="" cols="30" rows="2"></textarea>
 
                         <label for="exampleFormControlInput1" class="form-label mt-2">Escribe una descripción del FAQ</label>
                         <textarea class="input-form w-100" name="" id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn-edit ms-4" data-bs-dismiss="modal">Eliminar</button>
+                        <button type="button" class="btn-edit me-4" data-bs-dismiss="modal">Eliminar</button>
                         <button type="button" class="btn-mn-primary ml-4" data-bs-dismiss="modal">Guardar</button>
                             
                           </div>
@@ -169,9 +187,6 @@
                     <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
 
                 </div>
-               
-
-
             </div>
            
         </div>
@@ -179,8 +194,8 @@
   
  <!-- Durante tu estancia -->
  <div class="container-dashboard mx-auto mt-4 ps-2 py-2">
-    <h2> Durante tu estancia </h2>
-    <p> Preguntas más comunes de los viajeros que los viajeros tienen antes de llegar a nuestro alojamiento</p>
+    <h2> Durante su estancia </h2>
+    <p> Resuelve las dudas mas frecuente de tus huéspedes durante la estancia en tu alojamiento. Por ejemplo <strong>"¿Dónde encuentro mantas adicionales? </strong></p>
     
     <div class="slider-dashboard-light">
   
@@ -249,24 +264,18 @@
                     <button class="btn-edit mt-2"> Editar</button>
                 </div>
                
-
-
             </div>
            
         </div>
 
     
  
+    </div>
+
+    <!-- Fin durante tu estancia -->
+    </div>
 </div>
 
- <!-- Fin durante tu estancia -->
-</div>
-
-
-<p>holi</p>
-
-</div>
- -->
 
 
 <!-- Final FAQ -->

@@ -1,0 +1,25 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.image-profile{
+    border: 2px solid $light-purple;
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+
+}
+
+.items-profile{
+    min-width: 40px;
+    font-size: 14px;
+}
+
+.profile-name{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+

@@ -47,26 +47,26 @@
   </div>
   <div class="offcanvas-body">
 
-  <div class="nav-item">
-      <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Dashboard</a>
+  <div class="nav-item border-bottom pt-4 pb-4">
+      <a class="text-decoration-none text-dark fw-bolder " href="dashboard.php"> Dashboard</a>
     </div>
-    <div class="nav-item">
+    <div class="nav-item py-2 border-bottom pt-4 pb-4">
       <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Cuenta</a>
     </div>
-    <div class="nav-item">
+    <div class="nav-item py-2 border-bottom pt-4 pb-4">
       <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Facturación</a>
     </div>
-    <div class="nav-item">
+    <div class="nav-item py-2 border-bottom pt-4 pb-4">
       <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Precios</a>
     </div>
-    <div class="nav-item">
+    <div class="nav-item py-2 border-bottom pt-4 pb-4">
       <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Soporte Técnico</a>
     </div>
-    <div class="nav-item">
+    <div class="nav-item py-2 border-bottom pt-4 pb-4">
       <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Ayuda</a>
     </div>
- 
-    <div class="nav-item text-decoration-none text-dark fw-bolder">Cerrar Sesión</a>
+    <div class="nav-item py-2 border-bottom pt-4 pb-4">
+      <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Cerrar Sessión</a>
     </div>
 
     <div class="dropdown mt-3">

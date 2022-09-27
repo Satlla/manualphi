@@ -19,6 +19,19 @@ body {
   background-color: transparent;
   border: 1px solid #252A30;
   color: #1C1449;
+  text-decoration: none;
+  font-weight: 400;
+}
+.btn-rounded:a {
+  text-decoration: none;
+  color: #252A30;
+}
+.btn-rounded:hover {
+  color: #534E8C;
+}
+
+.btn-rounded a {
+  text-decoration: none;
 }
 
 .btn-rounded-bg-white {
@@ -70,12 +83,25 @@ body {
   background: #f1f1f1;
 }
 
-.btn-purple {
+.btn-share {
   color: #1C1449;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 20px;
 }
-.btn-purple:hover {
-  background-color: #7F8A93;
-  border-radius: 50%;
+.btn-share:hover {
+  background: #fafafa;
+  color: #534E8C;
+  border-radius: 30px;
 }
 
 .btn-mn-transparent {
@@ -93,6 +119,10 @@ body {
   background: #fafafa;
   color: #534E8C;
 }
+.btn-mn-transparent:a {
+  text-decoration: none !important;
+  color: #252A30 !important;
+}
 
 .btn-rounded-warning {
   border-radius: 30px;
@@ -100,9 +130,9 @@ body {
   font-weight: 400;
   text-decoration: none;
   min-height: 20px;
-  color: #FF385C;
+  color: #F94C66;
   background-color: transparent;
-  border: 1px solid #FF385C;
+  border: 1px solid #F94C66;
   margin-left: 10px;
 }
 .btn-rounded-warning:hover {
@@ -129,6 +159,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.add-button:hover {
+  background: #fafafa;
+  color: #534E8C;
+}
 
 .plus-icon {
   color: #7673C0;
@@ -141,5 +175,27 @@ body {
   color: #1C1449;
   border: none;
   background-color: transparent;
+}
+
+.item-card-badge-active {
+  padding: 2px 12px;
+  max-width: 100%;
+  border: none;
+  color: #f8fcf9;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-color: #377D71;
+}
+
+.item-card-badge-disabled {
+  padding: 2px 12px;
+  max-width: 100%;
+  border: none;
+  color: #f8fcf9;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-color: #F94C66;
 }
 /*# sourceMappingURL=_buttons.css.map */

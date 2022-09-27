@@ -13,9 +13,16 @@
     </div>
 
     <div class="container-dashboard mx-auto  ">
-        <div">
-            <p> A continuación tienes como hacer check in en el apartamento</p>
-            <p> Primero deberás dirigirte a Calle trafalgar 99, planta baja justo entonces tendrás que hacer lo que aparece a continuación</p>
+        <div>
+            <div class="d-flex align-items-center ms-4">
+                <span><img width="40" src="icons/checkin.svg" alt=""></span>
+
+                <h1 class="my-4"> Check In</h1>            
+            </div>
+            <hr>
+            <div class="container">
+                <Primero> A continuación tienes como hacer check in en el apartament Primero deberás dirigirte a Calle trafalgar 99, planta baja justo entonces tendrás que hacer lo que aparece a continuación</p>
+            </div>
          
         </div>
         <video class="video-details w-100 rounded" controls>

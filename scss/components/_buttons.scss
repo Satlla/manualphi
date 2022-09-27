@@ -2,14 +2,34 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+
 .btn-rounded {
     border-radius: 30px;
     padding: 8px 17px;
     background-color: transparent;
     border: 1px solid $dark-gray;
     color: $dark-purple;
+    text-decoration: none;
+    font-weight: 400;
+ 
+
+    &:a{
+        text-decoration: none ;
+        color: $dark-gray;
+    }
+
+    &:hover{
+        color: $mid-purple;
+    }
+
+
     
 }
+
+.btn-rounded a {
+    text-decoration: none;
+}
+
 
 .btn-rounded-bg-white{
     @include button-rounded;
@@ -155,4 +175,19 @@
     color: $dark-purple;
     border: none;
     background-color: transparent;
+}
+
+
+
+//BADGES
+
+.item-card-badge-active{
+    @include badge;
+    background-color: $dark-green;
+    
+}
+
+.item-card-badge-disabled{
+    @include badge;
+    background-color: $mid-red;
 }

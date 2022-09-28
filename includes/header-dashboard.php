@@ -18,7 +18,7 @@
 <body>
 
 <nav class="menu navbar navbar-light">
-  <div class="container-md d-flex">
+  <div class="container-lg d-flex">
     <a class="navbar-brand" href="index.php">
       <img src="images/logomanualphi.svg" alt="logo">
     </a>

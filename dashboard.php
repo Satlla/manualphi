@@ -212,7 +212,7 @@
 
 <!-- Empieza tus próximos pasos Dashboard-->
 
-<div class="bg-light mx-auto mt-4 ps-2 ">
+<div class="bg-light mx-auto mt-4 p-2 ">
 
 <div class="container-dashboard mx-auto mt-4 ">
     <h2> Tus próximos pasos</h2>

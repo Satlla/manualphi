@@ -110,7 +110,7 @@
   </div>
 
 <!-- FAQ Manage dashboard -->
-<div class="bg-light mx-auto mt-4 ps-2 ">
+<div class="bg-light mx-auto mt-4 p-2 ">
 
 <div class="container-dashboard mx-auto mt-4 ">
 

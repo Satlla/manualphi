@@ -1,6 +1,6 @@
 <?php include ('./includes/header-dashboard.php') ?>
 
-<div class="container-dashboard mx-auto mt-4 ps-2 ">
+<div class="container-dashboard mx-auto mt-4  ">
     <h1 class="title-2">Panel Principal</h1>
     <p> Este es tu panel de control, desde aquí podrás agregar propiedades y generar los manuales que tus huéspedes necesitan!</p>
     <div class="container-dashboard mx-auto mt-4  ">
@@ -37,7 +37,7 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -65,7 +65,7 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -94,7 +94,7 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -123,7 +123,7 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-rounded " href="manage-property.php"> Gestionar</a>
+                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -151,7 +151,7 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -180,7 +180,7 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -203,7 +203,7 @@
 
      <!-- Comienza bloque añadir propiedad -->
 
-    <div class="container-dashboard mx-auto mt-4 ps-2 ">
+    <div class="container-dashboard mx-auto mt-4 ">
     <button class="add-button mb-4"> Añadir Propiedad <img class="plus-icon" src="images/plus.svg" alt=""> </button>
 
     </div>
@@ -214,7 +214,7 @@
 
 <div class="bg-light mx-auto mt-4 ps-2 ">
 
-<div class="container-dashboard mx-auto mt-4 ps-2 py-2">
+<div class="container-dashboard mx-auto mt-4 ">
     <h2> Tus próximos pasos</h2>
 
 
@@ -288,7 +288,7 @@
 
     <div class=" mx-auto mt-4 ps-2 border bg-dark ">
 
-    <div class="container-dashboard mx-auto mt-4 ps-2 bg-dark">
+    <div class="container-dashboard mx-auto mt-4  bg-dark">
         <h2 class="text-light"> Consejos y novedades para anfitriones</h2>
 
 

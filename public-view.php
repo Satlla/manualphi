@@ -3,12 +3,12 @@
 <?php include ('./includes/header-dashboard.php') ?>
 <body class="body-manage-property">
 
-<div class="container-dashboard mx-auto mt-3 ps-2 ">
+<div class="container-dashboard mx-auto mt-3 ">
     <h1 class="title-2">La Casa Azul</h1>
+    <p>Bienvenido a la Casa Azul, aqui encontrarás un manual entero de mi alojamiento. Por favor si tienes cualquier duda dale a la pestaña contacto para poder hablar conmigo.</p>
     <div class="container-dashboard mx-auto  ">
         <div class=" d-flex justify-content-between  ">
             <div class="d-flex w-100 align-items-center">
-              
                     <img class="image-profile" src="images/user.png" alt="image-profile">
                     <div class="d-flex flex-column items-profile align-items-center  ">
                         <span class="profile-name">Antonio M</span>
@@ -20,12 +20,10 @@
                     <a class="btn-share text-decoration-none" href="" > <img class="me-2" src="icons/upload.svg" alt=""> Compartir </a>
                     <a class="btn-share text-decoration-none" href="" > <img class="me-2" src="icons/globe-alt.svg" alt=""> Idioma</a>
                 </div>
-         
         </div>
     </div>
 </div>
-
-<div class="container-dashboard mx-auto ps-2 ">
+<div class="container-dashboard mx-auto  ">
 
 
     <div class="navigation-menu">
@@ -34,7 +32,7 @@
                     <a href="details.php">
 
                         <div>
-                            <img class="item-icon" src="icons/checkin.svg" alt="">
+                            <img class="item-icon" src="icons/check-in.svg" alt="">
                         </div>
                         <a class="link-item " href=""> Check In</a>
                     </a>
@@ -43,7 +41,7 @@
                 
                 <li class="item-menu">
                     <div>
-                        <img class="item-icon" src="icons/sun.svg" alt="">
+                        <img class="item-icon" src="icons/clima.svg" alt="">
                     </div>
                     <a class="link-item" href=""> Climatización</a>
 
@@ -114,7 +112,7 @@
 <!-- FAQ Manage dashboard -->
 <div class="bg-light mx-auto mt-4 ps-2 ">
 
-<div class="container-dashboard mx-auto mt-4 ps-2 py-2">
+<div class="container-dashboard mx-auto mt-4 ">
 
 
     <h2 class="mt-4"> Antes de tu llegada </h2>

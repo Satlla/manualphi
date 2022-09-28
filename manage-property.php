@@ -6,7 +6,7 @@
     <p> Este es tu panel de control, desde aquí podrás agregar propiedades y generar los manuales que tus huéspedes necesitan!</p>
 
     <div class="container-dashboard mx-auto  ">
-        <div class=" d-flex justify-content-between align-items-center p-2 ">
+        <div class=" d-flex justify-content-between align-items-center ">
             <a href="dashboard.php"class="add-button"><img class="plus-icon" src="icons/chevron-left.svg" alt="">  Volver </a>
             <div class="d-flex justify-content-end">
               <a class="btn-share text-decoration-none" href="" > <img class="me-2" src="icons/upload.svg" alt=""> Compartir </a>
@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<div class="container-dashboard mx-auto mt-4 ps-2 ">
+<div class="container-dashboard mx-auto mt-4 ">
 
 <table class=" dashboard-table table ">
   <thead>

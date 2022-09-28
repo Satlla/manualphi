@@ -91,7 +91,7 @@ body {
   align-items: center;
   font-weight: 400;
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 .btn-share:hover {
   background: #fafafa;
@@ -165,6 +165,7 @@ body {
   color: #1C1449;
   border: none;
   background-color: transparent;
+  font-weight: 400;
 }
 
 .item-card-badge-active {
@@ -317,6 +318,7 @@ body {
 
 .container-dashboard {
   max-width: 940px;
+  padding: 0 0.5rem 0;
 }
 
 .wrapper {
@@ -446,6 +448,25 @@ body {
   min-width: 300px;
   max-width: 330px;
   max-height: 100%;
+}
+
+.cardshare {
+  padding: 1rem 2rem;
+  width: 45%;
+  display: flex;
+  min-height: 60px;
+  border: 1px solid #7F8A93;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #252A30;
+  font-weight: 400;
+}
+.cardshare:hover {
+  border-color: #7F8A93;
+  cursor: pointer;
+  background-color: #fafafa;
 }
 
 .table-td-title {

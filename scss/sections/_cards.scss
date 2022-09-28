@@ -66,3 +66,24 @@
 }
 
 
+.cardshare{
+    padding: 1rem 2rem;
+    width: 45%;
+    display: flex;
+    min-height: 60px;
+    border: 1px solid $mid-gray;
+    background-color: transparent;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    color: $dark-gray;
+    font-weight: 400;
+
+    &:hover{
+        border-color: $mid-gray;
+        cursor: pointer;
+        background-color: $ultralight-gray;
+    }
+}
+
+

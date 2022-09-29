@@ -54,7 +54,7 @@
       <a class="text-decoration-none text-dark fw-bolder" href="account.php"> Cuenta</a>
     </div>
     <div class="nav-item py-2 border-bottom pt-4 pb-4">
-      <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Facturación</a>
+      <a class="text-decoration-none text-dark fw-bolder" href="billing.php"> Facturación</a>
     </div>
     <div class="nav-item py-2 border-bottom pt-4 pb-4">
       <a class="text-decoration-none text-dark fw-bolder" href="dashboard.php"> Precios</a>

@@ -61,6 +61,31 @@
 
 }
 
+.btn-mn-danger{
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: $mid-red;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px 0;
+    text-decoration: none;
+
+    &:a{
+        text-decoration: none ;
+        color: $ultralight-gray;
+    }
+
+    &:hover {
+        color: $ultralight-gray;
+        text-decoration: none;
+      }
+
+}
+
+
 .btn-mn-gray{
     border-radius: 30px;
     padding: 8px 17px;

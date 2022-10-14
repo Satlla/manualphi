@@ -72,6 +72,7 @@
   </div>
 
   <button type="submit" class="btn-mn-primary">Guardar</button>
+  <button type="submit" class="btn-mn-danger">Borrar Cuenta</button>
 </form>
 
 

@@ -60,7 +60,7 @@
             Empresa
           </h6>
           <p>
-            <a href="#!" class="text-reset">Privacidad</a>
+            <a href="privacity.php" class="text-reset">Privacidad</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Aviso Legal</a>

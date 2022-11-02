@@ -32,12 +32,15 @@
                     </div>
                     
                     <div class="item-card-body d-flex justify-content-left p-2">
-                            <div class="item- d-flex justify-content-between container-lg">
+                            <div class="item d-flex justify-content-between container-lg  ">
                                 <div>
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
+                                    <div class="d-flex w-100 align-items-center justify-content-around">
+                                        <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""></a>
+                                    </div>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -54,104 +57,21 @@
                 <div class="item-card ">
                     
 
-                <div class="item-card-header">
+                    <div class="item-card-header">
                         <span class=" ">Hace 2 días</span>
                         <span class="item-card-badge-active"> Activo</span>
                     </div>
                     
                     <div class="item-card-body d-flex justify-content-left p-2">
-                            <div class="item- d-flex justify-content-between container-lg">
+                            <div class="item d-flex justify-content-between container-lg  ">
                                 <div>
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
-                                </div>
-
-                                <div class="d-flex align-items-center">
-                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
-                                </div>
-                            </div>
-                        
-
-                    </div>
-                </div>
-
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-6 col-xl-4  p-2">
-                <div class="item-card ">
-                    
-
-                <div class="item-card-header">
-                        <span class=" ">Hace 2 días</span>
-                        <span class="item-card-badge-active"> Activo</span>
-                    </div>
-                    
-                    <div class="item-card-body d-flex justify-content-left p-2">
-                            <div class="item- d-flex justify-content-between container-lg">
-                                <div>
-                                    <h5 class="text-break mt-2"> La Casa Azul </h5>
-                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
-                                    <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
-                                </div>
-
-                                <div class="d-flex align-items-center">
-                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
-                                </div>
-                            </div>
-                        
-
-                    </div>
-                </div>
-
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-6 col-xl-4  p-2">
-                <div class="item-card ">
-                    
-
-                <div class="item-card-header">
-                        <span class=" ">Hace 2 días</span>
-                        <span class="item-card-badge-disabled"> Activo</span>
-                    </div>
-                    
-                    <div class="item-card-body d-flex justify-content-left p-2">
-                            <div class="item- d-flex justify-content-between container-lg">
-                                <div>
-                                    <h5 class="text-break mt-2"> La Casa Azul </h5>
-                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
-                                    <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
-                                </div>
-
-                                <div class="d-flex align-items-center">
-                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-6 col-xl-4  p-2">
-                <div class="item-card ">
-                    
-
-                <div class="item-card-header">
-                        <span class=" ">Hace 2 días</span>
-                        <span class="item-card-badge-active"> Activo</span>
-                    </div>
-                    
-                    <div class="item-card-body d-flex justify-content-left p-2">
-                            <div class="item- d-flex justify-content-between container-lg">
-                                <div>
-                                    <h5 class="text-break mt-2"> La Casa Azul </h5>
-                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
-                                    <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
+                                    <div class="d-flex w-100 align-items-center justify-content-around">
+                                        <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""> </a>
+                                    </div>
                                 </div>
 
                                 <div class="d-flex align-items-center">
@@ -169,6 +89,70 @@
                 <div class="item-card ">
                     
 
+                    <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-active"> Activo</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item d-flex justify-content-between container-lg  ">
+                                <div>
+                                    <h5 class="text-break mt-2"> La Casa Azul </h5>
+                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
+                                    <p class=""> Problemas: <strong>3</strong></p>
+                                    <div class="d-flex w-100 align-items-center justify-content-around">
+                                        <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-share" href="" ><img class="me-1" src="icons/share.svg" alt=""> </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-xl-4 p-2">
+                <div class="item-card ">
+                    
+
+                    <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-disabled"> Desactivado</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item d-flex justify-content-between container-lg  ">
+                                <div>
+                                    <h5 class="text-break mt-2"> La Casa Azul </h5>
+                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
+                                    <p class=""> Problemas: <strong>3</strong></p>
+                                    <div class="d-flex w-100 align-items-center justify-content-around">
+                                        <a class="btn-mn-primary" href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""> </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-xl-4  p-2">
+                <div class="item-card ">
+                    
+
                 <div class="item-card-header">
                         <span class=" ">Hace 2 días</span>
                         <span class="item-card-badge-active"> Activo</span>
@@ -180,7 +164,42 @@
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
-                                    <a class="btn-edit " href="manage-property.php"> Gestionar</a>
+                                    <div class="d-flex w-100 align-items-center justify-content-around">
+                                        <a class="btn-mn-primary" href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""> </a>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <img class="item-card-image" src="images/img.png" alt="img-apartment">
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-xl-4 p-2">
+                <div class="item-card ">
+                    
+
+                <div class="item-card-header">
+                        <span class=" ">Hace 2 días</span>
+                        <span class="item-card-badge-active"> Activo</span>
+                    </div>
+                    
+                    <div class="item-card-body d-flex justify-content-left p-2">
+                            <div class="item- d-flex justify-content-between container-lg">
+                                <div>
+                                    <h5 class="text-break mt-2"> La Casa Azul </h5>
+                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
+                                    <p class=""> Problemas: <strong>3</strong></p>
+                                    <div class="d-flex w-100 align-items-center justify-content-around">
+                                        <a class="btn-mn-transparent" href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""> </a>
+                                    </div>
                                 </div>
 
                                 <div class="d-flex align-items-center">

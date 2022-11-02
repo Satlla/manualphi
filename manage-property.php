@@ -35,7 +35,7 @@
       <td class="table-td-title">Check in</td>
       <td class="align-items-center d-none d-md-flex "> <img class="table-td-success" src="icons/red-dot.svg" alt=""> <span class="status-zone">Desactivado</span></td>      
       <td> <button type="button" class="item-card-badge-disabled position-relative"> Errores <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</button></td>
-      <td class="text-center"> <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button></td>
+      <td class="text-center"> <a href="edit-zone.php" class="btn-edit ms-2" > Editar</a></td>
       
     </tr>
     <tr>
@@ -85,9 +85,10 @@
   <div class="container-dashboard mx-auto  ">
       <div class=" d-flex justify-content-end align-items-center p-2 ">
 
+            <a href="dashboard.php" class="add-button m-2"> Descargar Etiquetas <img class="plus-icon" src="icons/qrcode.svg" alt=""> </a>
             <a href="dashboard.php" class="add-button"> Añadir Zona <img class="plus-icon" src="images/plus.svg" alt=""> </a>
-
-      </div>
+   
+          </div>
   </div>
 
 <!-- FAQ Manage dashboard -->
@@ -165,7 +166,6 @@
 
                     <p class=" mt-2"> Descubre como poder disfrutar de tu viaje mucho antes</p>
                     <button class="btn-edit ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Editar</button>
-
                 </div>
                 <div class=" card-step border">
                 <div class="item-header my-2"> <h5> <img class="md-2" src="icons/light-bulb.svg" alt=""> ¿Recogerme del aeropuerto? </h5></div>

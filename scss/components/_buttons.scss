@@ -34,7 +34,7 @@
 .btn-rounded-bg-white{
     @include button-rounded;
     color: $dark-gray;
-    border: none;
+    border: 1px solid $dark-gray;
 }
 
 .btn-mn-primary{
@@ -235,4 +235,5 @@
 .item-card-badge-disabled{
     @include badge;
     background-color: $mid-red;
+}
 }

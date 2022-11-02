@@ -38,8 +38,43 @@
                                     <p class="m-0"> Vistas: <strong> 3498</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
                                     <div class="d-flex w-100 align-items-center justify-content-around">
+
+                                    <!-- Botón para gestionar el manual -->
                                         <a class="btn-mn-primary " href="manage-property.php"> Gestionar</a>
-                                        <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""></a>
+
+                                        <!-- Boton de compartir manual entero -->
+                                        <button class="btn btn-share text-decoration-none ml-2" data-bs-toggle="modal" data-bs-target="#shareModal"> <img class="me-2" src="icons/share.svg" alt="">  </button>
+
+                 <!-- Modal -->
+                <div class="modal fade " id="shareModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bolder" id="exampleModalLabel">Comparte el manual con tus acompañantes. </h5>
+                
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                       <div class=" d-flex justify-content-around">
+                           <div class="cardshare">
+                           <img src="icons/duplicate.svg" alt="">
+                            <span class="ms-2"> Copiar</span>
+                           </div>
+                           <div class="cardshare">
+                            <img src="icons/whatsapp.svg" width="30" alt="">
+                            <span class="ms-2"> Whatsapp</span>
+                           </div>
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-mn-primary" data-bs-dismiss="modal">Aceptar</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!-- Fin modal compartir -->
                                     </div>
                                 </div>
 
@@ -194,10 +229,10 @@
                             <div class="item- d-flex justify-content-between container-lg">
                                 <div>
                                     <h5 class="text-break mt-2"> La Casa Azul </h5>
-                                    <p class="m-0"> Vistas: <strong> 3498</strong></p>
+                                    <p class="m-0"> Vistas: <strong> 0000</strong></p>
                                     <p class=""> Problemas: <strong>3</strong></p>
                                     <div class="d-flex w-100 align-items-center justify-content-around">
-                                        <a class="btn-mn-transparent" href="manage-property.php"> Gestionar</a>
+                                        <a class="btn-mn-primary" href="manage-property.php"> Gestionar</a>
                                         <a class="btn-share me-2 " href="" ><img class="me-1" src="icons/share.svg" alt=""> </a>
                                     </div>
                                 </div>
